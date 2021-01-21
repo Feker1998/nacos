@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/nacos-config-share/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-feign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-namespace-one/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-namespace-two/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-provide/src/main/java" charset="UTF-8" />
   </component>
 </project>

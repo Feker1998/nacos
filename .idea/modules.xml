@@ -3,7 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/nacos.iml" filepath="$PROJECT_DIR$/nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-config/nacos-config.iml" filepath="$PROJECT_DIR$/nacos-config/nacos-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-config-share/nacos-config-share.iml" filepath="$PROJECT_DIR$/nacos-config-share/nacos-config-share.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-consumer/nacos-consumer.iml" filepath="$PROJECT_DIR$/nacos-consumer/nacos-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-feign/nacos-feign.iml" filepath="$PROJECT_DIR$/nacos-feign/nacos-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-namespace-one/nacos-namespace-one.iml" filepath="$PROJECT_DIR$/nacos-namespace-one/nacos-namespace-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-namespace-two/nacos-namespace-two.iml" filepath="$PROJECT_DIR$/nacos-namespace-two/nacos-namespace-two.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-provide/nacos-provide.iml" filepath="$PROJECT_DIR$/nacos-provide/nacos-provide.iml" />
     </modules>
   </component>

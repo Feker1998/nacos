@@ -6,6 +6,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/nacos-provide/pom.xml" />
         <option value="$PROJECT_DIR$/nacos-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-config/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-namespace-one/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-namespace-two/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-config-share/pom.xml" />
       </list>
     </option>
   </component>

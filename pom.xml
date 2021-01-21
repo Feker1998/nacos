@@ -16,6 +16,11 @@
     <modules>
         <module>nacos-provide</module>
         <module>nacos-consumer</module>
+        <module>nacos-feign</module>
+        <module>nacos-config</module>
+        <module>nacos-namespace-one</module>
+        <module>nacos-namespace-two</module>
+        <module>nacos-config-share</module>
     </modules>
     <description>Demo project for Spring Boot</description>
     <properties>

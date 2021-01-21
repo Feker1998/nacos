@@ -6,20 +6,35 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="nacos-namespace-two" />
+        <module name="nacos-config" />
         <module name="nacos-provide" />
+        <module name="nacos-config-share" />
+        <module name="nacos-namespace-one" />
+        <module name="nacos-feign" />
         <module name="nacos-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="nacos" target="1.8" />
+      <module name="nacos-config" target="1.8" />
+      <module name="nacos-config-share" target="1.8" />
       <module name="nacos-consumer" target="1.8" />
+      <module name="nacos-feign" target="1.8" />
+      <module name="nacos-namespace-one" target="1.8" />
+      <module name="nacos-namespace-two" target="1.8" />
       <module name="nacos-provide" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="nacos" options="-parameters" />
+      <module name="nacos-config" options="-parameters" />
+      <module name="nacos-config-share" options="-parameters" />
       <module name="nacos-consumer" options="-parameters" />
+      <module name="nacos-feign" options="-parameters" />
+      <module name="nacos-namespace-one" options="-parameters" />
+      <module name="nacos-namespace-two" options="-parameters" />
       <module name="nacos-provide" options="-parameters" />
     </option>
   </component>

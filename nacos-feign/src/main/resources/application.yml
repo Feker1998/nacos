@@ -1,0 +1,15 @@
+server:
+  port: 9529
+
+spring:
+  application:
+    name: nacos-feign
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+#调用服务出错时触发错误机制(执行RemoteHystrix实现的方法)
+feign:
+  hystrix:
+    enabled: true
