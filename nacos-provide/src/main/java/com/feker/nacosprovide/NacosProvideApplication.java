@@ -16,7 +16,7 @@ public class NacosProvideApplication {
     }
 
     @GetMapping("/helloNacos")
-    public String helloNacos(){
+    public String helloNacos() {
         return "你好，nacos！";
     }
 }

@@ -19,7 +19,7 @@ public class NacosConfigApplication {
         SpringApplication.run(NacosConfigApplication.class, args);
     }
 
-//    通过@Value注解，去读取key为nacosconfig的配置的值，并通过/getValue接口返回。
+    //    通过@Value注解，去读取key为nacosconfig的配置的值，并通过/getValue接口返回。
     @Value("${nacos.config}")
     private String config;
 

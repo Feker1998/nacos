@@ -24,13 +24,13 @@ public class NacosConsumerApplication {
 
     @Bean
     @LoadBalanced
-    public RestTemplate getRestTemplate(){
+    public RestTemplate getRestTemplate() {
         return new RestTemplate();
     }
 
     @GetMapping("/consumer")
     public String test1() {
-        String result = restTemplate.getForObject("http://nacos-provide/helloNacos",String.class);
+        String result = restTemplate.getForObject("http://nacos-provide/helloNacos", String.class);
         return "Return : " + result;
     }
 }
