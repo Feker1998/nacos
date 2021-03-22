@@ -8,4 +8,5 @@ public interface RemoteClient {
 
     @GetMapping("/helloNacos")
     String helloNacos();
+    //就打个tag测试一下
 }
